@@ -41,6 +41,7 @@ img {
 
 .home-content {
   text-align: center;
+  position: relative;
 }
 
 .wrapper {
@@ -50,10 +51,10 @@ img {
 }
 
 /* ホーム */
-.home-content {
+/* .home-content {
   text-align: center;
   margin-top: 10%;
-}
+} */
 
 .home-content p {
   font-size: 20px;
@@ -63,6 +64,7 @@ img {
   font-size: 3rem;
   font-family: "philosopher", serif;
   font-weight: normal;
+  margin: 0 auto;
 }
 
 .button {
@@ -79,17 +81,17 @@ img {
 }
 
 .big-big {
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 #home {
-   /* background-image: url(../images/54321.jpg); */
-  min-height: 100vh;
+  /* background-image: url(1.png); */
+  /* min-height: 100vh; */
 }
 
 .fadeIn {
   animation-name: fadeInAnime;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -98,6 +100,12 @@ img {
   0% {
     opacity: 0;
   }
+  /* 25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  } */
 
   100% {
     opacity: 1;
@@ -105,7 +113,7 @@ img {
 }
 /* news */
 #news {
-  /* background-image: url(../images/54321.jpg); */
+  /* background-image: url(../images/4.jpg); */
   height: 170px;
   margin-bottom: 10px;
 }
@@ -148,7 +156,6 @@ aside {
 footer {
   background-color: #432;
   text-align: center;
-  /* padding: 26px 0; */
 }
 footer p {
   color: #fff;
@@ -157,7 +164,6 @@ footer p {
 
 .menu {
   height: 90vh;
-  /* margin-top: 50px; */
 }
 .mene-index {
   display: flex;
@@ -181,8 +187,6 @@ td {
 .message {
   display: block;
   text-align: center;
-  margin-bottom: 10px;
-  border-bottom: dashed 3px;
   padding-bottom: 20px;
 }
 .menu-menu {
@@ -252,4 +256,17 @@ select {
 #menu {
   background-image: url(../images/2.jpg);
   height: 100vh;
+}
+.mainpic {
+  position: absolute;
+  min-height: 100vh;
+  display: flex;
+  /* background-size: cover; */
+}
+
+.hero-title {
+  padding: 100px 10px;
+}
+.newspic {
+  min-height: 100vh;
 }
