@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Klee One", cursive;
+  line-height: 1.7;
+  color: #432;
+}
+img {
+  max-width: 100%;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a {
+  color: #432;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  color: #0bd;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-content {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/* ホーム */
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-content p {
+  font-size: 20px;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-family: "philosopher", serif;
+  font-weight: normal;
+}
+
+.button {
+  font-size: 1.375rem;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 18px 32px;
+  color: #fff;
+  background: #0bd;
+}
+
+.button:hover {
+  background-color: #0090aa;
+}
+
+.big-big {
+  background-size: cover;
+}
+
+#home {
+  background-image: url(images/4.jpg);
+  min-height: 100vh;
+}
+
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnime {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+/* news */
+#news {
+  /* background-image: url(../images/54321.jpg); */
+  height: 170px;
+  margin-bottom: 10px;
+}
+.page-titile {
+  text-align: center;
+  font-size: 50px;
+}
+.news-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+/* メインの記事 */
+article {
+  width: 74%;
+}
+.post-info {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+.post-date {
+  font-size: 1rem;
+  width: 60%;
+}
+.post-title {
+  margin-left: 200px;
+}
+/* サイドバー */
+aside {
+  width: 22%;
+  margin-top: 50px;
+}
+.sub-titile {
+  font-size: 1.375rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal;
+}
+/* フッター */
+footer {
+  background-color: #432;
+  text-align: center;
+  /* padding: 26px 0; */
+}
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.menu {
+  height: 90vh;
+  /* margin-top: 50px; */
+}
+.mene-index {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+table {
+  display: flex;
+  justify-content: center;
+}
+
+th {
+  font-size: 20px;
+  text-align: left;
+  padding: 5px 10px 10px 10px;
+}
+td {
+  font-size: 20px;
+  padding-left: 20px;
+}
+.message {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: dashed 3px;
+  padding-bottom: 20px;
+}
+.menu-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.webname {
+  text-decoration: none;
+  list-style: none;
+  color: #432;
+}
+form div {
+  margin-bottom: 14px;
+  text-align: center;
+}
+label {
+  font-size: 15px;
+  margin-bottom: 18px;
+  display: block;
+}
+input[type="text"] {
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
+  max-width: 240px;
+}
+input[type="email"] {
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
+  max-width: 240px;
+}
+textarea {
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
+
+  max-width: 480px;
+}
+
+input [type="submit"] {
+  line-height: 5px;
+}
+
+.button1 {
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  color: #fff;
+  background: #0bd;
+}
+
+.button1:hover {
+  background-color: #0090aa;
+}
+.content-button {
+  display: flex;
+  justify-content: center;
+}
+select {
+  width: 275px;
+  font-size: 16px;
+}
+
+#menu {
+  background-image: url(../images/2.jpg);
+  height: 100vh;
+}
