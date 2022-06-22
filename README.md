@@ -32,12 +32,17 @@ https://docs.google.com/spreadsheets/d/1KK5OsCZc8cSOJ8q_kuMVVIxrlsa1kR5WryMKHPf-
 
 # アプリの挙動動画
 
-レイアウトのバランスを意識しました。
+レイアウトのバランスを意識しました。  
 
-[![Image from Gyazo](https://i.gyazo.com/d5e9290d591c584d7f7b44c82de28bd0.gif)](https://gyazo.com/d5e9290d591c584d7f7b44c82de28bd0)
+
+[![Image from Gyazo](https://i.gyazo.com/31f73aed978cf9c9c7f4a10eda9f22b9.gif)](https://gyazo.com/31f73aed978cf9c9c7f4a10eda9f22b9)  
+
 
 # アプリの挙動動画
 
 UI 要素で利用しやすくしました。
 
-[![Image from Gyazo](https://i.gyazo.com/03a796889643c41b576491ddc32e29d0.gif)](https://gyazo.com/03a796889643c41b576491ddc32e29d0)
+[![Image from Gyazo](https://i.gyazo.com/03a796889643c41b576491ddc32e29d0.gif)](https://gyazo.com/03a796889643c41b576491ddc32e29d0)　　
+
+# 開発環境
+HTML/CSS/Github/Visual Studio Code
